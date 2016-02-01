@@ -1,0 +1,12 @@
+<script type="text/javascript">
+var o = {
+	toString : function(){
+		return "My Object";
+	}, toData : "this is data string"
+};
+for (var prop in o){
+	if (prop == "toData"){
+	console.log(prop); //won’t display in Internet Explorer
+	}
+}
+</script>

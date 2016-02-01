@@ -1,0 +1,10 @@
+<script type="text/javascript">
+var person = {};
+Object.defineProperty(person, "name", {
+	writable: false,
+	value: "Nicholas"
+});
+alert(person.name); //"Nicholas"
+person.name = "Greg";
+alert(person.name); //"Nicholas"
+</script>
