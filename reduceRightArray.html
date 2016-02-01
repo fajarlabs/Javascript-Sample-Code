@@ -1,0 +1,8 @@
+<SCRIPT TYPE="text/javascript">
+	// Fungsinya sama seperti reduce , hanya berbeda pada opposite redirection
+	var values = [1,2,3,4,5];
+	var sum = values.reduceRight(function(prev, cur, index, array){
+		return prev + cur;
+	});
+	alert(sum); //15
+</SCRIPT>
